@@ -1,1 +1,2 @@
 OLED_TRANSPORT = spi
+COMBO_ENABLE = yes
