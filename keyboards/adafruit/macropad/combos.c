@@ -289,25 +289,9 @@ case ARTSEY_OS_SHIFT:
 if (pressed) {add_oneshot_mods(MOD_BIT(KC_LSFT));}
 break;
 case ARTSEY_CTRL:
-if (pressed) {
- if (get_mods() & MOD_MASK_CTRL){
- del_mods(MOD_MASK_CTRL);;
- } else { 
- add_mods(MOD_MASK_CTRL); } ;}
-break;
 case ARTSEY_CTRL_2:
-if (pressed) {
- if (get_mods() & MOD_MASK_CTRL){
- del_mods(MOD_MASK_CTRL);;
- } else { 
- add_mods(MOD_MASK_CTRL); } ;}
-break;
 case ARTSEY_CTRL_3:
-if (pressed) {
- if (get_mods() & MOD_MASK_CTRL){
- del_mods(MOD_MASK_CTRL);;
- } else { 
- add_mods(MOD_MASK_CTRL); } ;}
+if (pressed) {add_oneshot_mods(MOD_BIT(KC_LCTL));}
 break;
 case ARTSEY_GUI:
 if (pressed) {
